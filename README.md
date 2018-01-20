@@ -1,8 +1,6 @@
 # 3S
 3S stands for Stream Sediment Samples
 
-# 3S
-
 ![Sample WDCB output image](https://goo.gl/uBwG5T)
 
 ## Introduction
