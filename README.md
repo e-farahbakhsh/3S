@@ -4,12 +4,21 @@
 ![Sample WDCB output image](https://goo.gl/uBwG5T)
 
 ## Introduction
-This repository deals with analysing Stream Sediment Samples (3S) which are known as one of the important sample types used for mineral prospecting in preliminary stages of the geochemical exploration.
+This repository deals with analyzing Stream Sediment Samples (3S) which are known as one of the important sample types used for mineral prospecting in preliminary stages of the geochemical exploration.
 The codes available here are as follows:
 
+* ilr Transformation
 * Weighted Drainage Catchment Basin (WDCB)
 
 ## Usage
+
+### ilr Transformation
+Input data to many statistical techniques like factor analysis are required to follow a normal or symmetric distribution. Stream sediment geochemical data are categorized as the compositional data and they represent a closed number system. In this system, individual variables are not independent and they are parts of a whole. Log-ratio transformations are suggested to be applied on the data prior to the factor analysis through opening the close range of variation. Different transformation methods have been discussed before to reach symmetric distributions from primary geochemical data. According to Filzmoser et al. (2009), isometric log-ratio (ilr) transformation involves some theoretical advantages over other log-ratio transformations for statistical analysis of the geochemical data.
+The input variable (A) to the transformation code is an m by n matrix that m equals the number of samples and n equals the number of elements which have been analyzed. Each array in this matrix is the concentration value of a specific element. The output of *"ilr_Univariate"* code (C) provides the normalized data for univariate analysis, and the output of *"ilr_Multivariate"* (B) code provides the normalized data for multivariate analysis.
+
 ### WDCB
-This is a discrete mapping approach to delineate geochemical anomalies. WDCB is used to weigh catchment basins according to the geochemical parameters assigned to stream sediment samples collected within each catchment basin. These parameters can be concentration values of different elements, factor scores determined by factor analysis on a set of elements or any other parameters which deals with the initial concentration values of elements measured for each stream sediment sample.
-The input file to this code have to be prepared in three columns or more (m by n). Number of rows (m) equals number of samples. First and second columns are respectively *"Basin ID"* and *"Point ID"*. Third column to the last (n) include geochemical parameters assigned to each point. The output matrix which includes the weights and their fuzzy equivalent is called *"Basin"*. Number of rows in that equals number of catchment basins. The first and second columns are respectively *"Basin ID"* and number of samples in each catchemnt basin. The third column to the column n are respectively the weights calculated for each catchment basin according to the geochemical parameter assigned to sampling points in equivalent column of the input matrix. Column n to last show the fuzzy equivalent of the columns 3 to n respectively.
+This is a discrete mapping approach to delineate geochemical anomalies in a regional scale and preliminary stage of mineral exploration. WDCB is used to weigh catchment basins according to the geochemical parameters assigned to stream sediment samples collected within each catchment basin. These parameters can be concentration values of different elements, factor scores determined by factor analysis on a set of elements or any other parameters which deals with the initial concentration values of the elements measured for each stream sediment sample.
+The input variable (A) to this code have to be prepared in three columns or more (m by n). Number of rows (m) equals number of samples. First and second columns are respectively *"Catchment Basin ID"* and *"Point ID"*. Third column to the last (n) include geochemical parameters assigned to each point. The output matrix which includes the weights and their fuzzy equivalent is called *"WDCB"*. Number of rows in that equals number of catchment basins. The first and second columns are respectively *"Basin ID"* and number of samples in each catchment basin. The third column to the column n are respectively the weights calculated for each catchment basin according to the geochemical parameter assigned to the sampling points in equivalent column of the input matrix. Column n to the last show the fuzzy equivalent of the columns 3 to n respectively.
+
+## References
+Filzmoser, P., Hron, K., Reimann, C., Univariate statistical analysis of environmental (compositional) data: Problems and possibilities, Science of The Total Environment, 407(23), 2009, 6100-6108
