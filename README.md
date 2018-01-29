@@ -1,7 +1,7 @@
 # 3S
 3S stands for Stream Sediment Samples
 
-![Sample WDCB output image](https://goo.gl/uBwG5T)
+![Sample WDCB output image](https://goo.gl/uBwG5T){:height="50%" width="50%"}
 
 ## Introduction
 This repository deals with analyzing Stream Sediment Samples (3S) which are known as one of the important sample types used for mineral prospecting in preliminary stages of the geochemical exploration.
