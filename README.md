@@ -31,6 +31,6 @@ This is a discrete mapping approach to delineate geochemical anomalies in region
 The input variable (A) to this code has to be prepared in three columns or more (m by n). The number of rows (m) in the input matrix equals the number of samples. The first and second columns are respectively *"Catchment Basin ID"* and *"Point ID"*. The third column to the last (n) include geochemical parameters assigned to each point. The output matrix which includes the weights and their fuzzy equivalents is called *"WDCB_Mat"*. The number of rows in that equals the number of catchment basins. The first and second columns are respectively *"Basin ID"* and number of samples in each catchment basin. The third column to the column n are respectively the weights calculated for each catchment basin according to the geochemical parameter assigned to the sampling points in equivalent column of the input matrix. The column n to the last show the fuzzy equivalent of the columns 3 to n respectively.
 
 ## References
-Filzmoser, P., Hron, K., Reimann, C., Univariate statistical analysis of environmental (compositional) data: Problems and possibilities, Science of The Total Environment, 407(23), 2009, 6100-6108
-
 Farahbakhsh, E., Chandra, R., Eslamkish, T., Muller, R. D., Discrete geochemical mapping of the stream sediment samples for prospecting porphyry Cu-Au mineralization (Under Review)
+
+Filzmoser, P., Hron, K., Reimann, C., Univariate statistical analysis of environmental (compositional) data: Problems and possibilities, Science of The Total Environment, 407(23), 2009, 6100-6108
