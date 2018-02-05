@@ -1,5 +1,5 @@
 # 3S
-3S stands for Stream Sediment Samples
+Stream Sediment Samples (3S)
 
 [![DOI](https://zenodo.org/badge/118207344.svg)](https://zenodo.org/badge/latestdoi/118207344)
 
@@ -32,3 +32,4 @@ The input variable (A) to this code has to be prepared in three columns or more 
 
 ## References
 Filzmoser, P., Hron, K., Reimann, C., Univariate statistical analysis of environmental (compositional) data: Problems and possibilities, Science of The Total Environment, 407(23), 2009, 6100-6108
+Farahbakhsh, E., Chandra, R., Eslamkish, T., Muller, R. D., Discrete geochemical mapping of the stream sediment samples for prospecting porphyry Cu-Au mineralization (Under Review)
