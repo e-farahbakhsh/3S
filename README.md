@@ -3,8 +3,6 @@ Stream Sediment Samples (3S)
 
 [![DOI](https://zenodo.org/badge/118207344.svg)](https://zenodo.org/badge/latestdoi/118207344)
 
-![Sample WDCB output image](https://goo.gl/uBwG5T)
-
 ## Introduction
 This repository deals with analyzing Stream Sediment Samples (3S) which are known as one of the important sample types used for mineral prospecting in preliminary stages of the geochemical exploration.
 The codes available here are as follows:
