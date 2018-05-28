@@ -31,6 +31,6 @@ The input variable (A) to this code has to be prepared in three columns or more 
 ## References
 Farahbakhsh, E., Chandra, R., Eslamkish, T., Muller, R. D., Discrete geochemical mapping of the stream sediment samples for prospecting porphyry Cu-Au mineralization (Under Review)
 
-Filzmoser, P., Hron, K., Reimann, C., 2009, Univariate statistical analysis of environmental (compositional) data: Problems and possibilities, Science of The Total Environment, 407(23), 6100-6108
+Filzmoser, P., Hron, K., Reimann, C., 2009, Univariate statistical analysis of environmental (compositional) data: Problems and possibilities, *Science of The Total Environment*, 407(23), 6100-6108
 
-Yousefi, M., Carranza, E. J. M., Kamkar-Rouhani, A., 2013, Weighted drainage catchment basin mapping of geochemical anomalies using stream sediment data for mineral potential modeling, Journal of Geochemical Exploration, 128, 88-96
+Yousefi, M., Carranza, E. J. M., Kamkar-Rouhani, A., 2013, Weighted drainage catchment basin mapping of geochemical anomalies using stream sediment data for mineral potential modeling, *Journal of Geochemical Exploration*, 128, 88-96
